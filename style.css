@@ -16,30 +16,30 @@ nav {
 nav ul {
     list-style-type: none;
     /* Remove bullets */
-    margin: 0;
+    margin: 0px;
     padding: 0;
     display: flex;
     /* Flexbox for horizontal layout */
 }
 
 nav li.o {
-    margin-left: 50px;
-    margin-right: 600px;
+    margin-left: 500px;
+    margin-right: 60px;
     /* Space between items */
 }
 
 nav li.t {
-    margin-right: 50px;
+    margin-right: 60px;
     /* Space between items */
 }
 
 nav li.th {
-    margin-right: 50px;
+    margin-right: 60px;
     /* Space between items */
 }
 
 nav li.f {
-    margin-right: 20px;
+    margin-right: 60px;
     /* Space between items */
 }
 
@@ -59,14 +59,28 @@ nav a:hover {
     /* Change background on hover */
 }
 
+h1.me,
+h1.mee {
+    margin-left: 100px;
+}
+
+h1.mee {
+    color: red;
+}
+
+h1.me {
+    color: white;
+}
+
 div.a {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     color: white;
     width: 49%;
     border-radius: 15px;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 130px;
 }
 
 div.b {
@@ -75,19 +89,20 @@ div.b {
     border-radius: 10px;
     margin-left: 100px;
     color: white;
+    /* margin-bottom: none; */
     /* width: 40%; */
 }
 
 div.b {
     display: flex;
     width: 40%;
-    height: 200px;
+    height: 250px;
     margin-right: 200px;
 
 }
 
 div.i img {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-radius: 15px;
 }
 
@@ -120,7 +135,7 @@ div.ic img {
     border-radius: 10px;
     width: 300px;
     height: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 1px;
 }
 
 div.ia:hover,
@@ -138,7 +153,7 @@ div.ia img {
 }
 
 .footer {
-    margin-top: 550px;
+    margin-top: 570px;
     text-align: center;
     padding: 20px 0;
     /* Padding above and below */
@@ -152,7 +167,7 @@ div.ia img {
 }
 
 .footer .container {
-    max-width: 1200px;
+    max-width: 1000px;
     /* Max width for content */
     margin: 0 auto;
     /* Center align container */
@@ -184,4 +199,26 @@ div.ia img {
 .footer-links a:hover {
     text-decoration: underline;
     /* Underline on hover */
+}
+
+div.resume {
+    margin-left: 110px;
+    margin-top: 100px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: orange;
+    text-align: center;
+    width: 250px;
+    text-decoration: none;
+}
+
+.resume h2 {
+    text-align: right;
+    margin-right: 230px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a.chan {
+    font-size: 30px;
 }
