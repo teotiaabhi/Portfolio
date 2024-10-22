@@ -6,62 +6,50 @@ body {
 }
 
 nav {
-    /* background-color: #333; Dark background */
     padding: 10px 20px;
-    /* Padding around the nav */
     border-radius: 15px;
     background-color: transparent;
 }
 
 nav ul {
     list-style-type: none;
-    /* Remove bullets */
     margin: 0px;
     padding: 0;
     display: flex;
-    /* Flexbox for horizontal layout */
 }
 
 nav li.o {
     margin-left: 500px;
     margin-right: 60px;
-    /* Space between items */
 }
 
 nav li.t {
     margin-right: 60px;
-    /* Space between items */
 }
 
 nav li.th {
     margin-right: 60px;
-    /* Space between items */
 }
 
 nav li.f {
     margin-right: 60px;
-    /* Space between items */
 }
 
 nav a {
     color: white;
-    /* Text color */
     text-decoration: none;
-    /* Remove underline */
     padding: 5px 10px;
-    /* Padding around links */
     transition: background-color 0.3s;
-    /* Smooth transition */
 }
 
 nav a:hover {
     background-color: #555;
-    /* Change background on hover */
 }
 
 h1.me,
 h1.mee {
     margin-left: 100px;
+    margin-bottom: 5px;
 }
 
 h1.mee {
@@ -89,8 +77,6 @@ div.b {
     border-radius: 10px;
     margin-left: 100px;
     color: white;
-    /* margin-bottom: none; */
-    /* width: 40%; */
 }
 
 div.b {
@@ -98,12 +84,13 @@ div.b {
     width: 40%;
     height: 250px;
     margin-right: 200px;
+    overflow: auto;
 
 }
 
 div.i img {
-    /* margin-bottom: 10px; */
     border-radius: 15px;
+    margin-top: 0px;
 }
 
 div.about {
@@ -125,80 +112,117 @@ div.pc {
     color: white;
 }
 
-div.ia img,
-div.ib img,
-div.ic img {
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 5%;
-    float: left;
-    border-radius: 10px;
-    width: 300px;
+.ia{
+    border-radius: 15px;
+
+}
+.ia img{
+    width: 49%;
+    border-radius: 15px;
+    background-color: transparent;
+    float: right; 
     height: 400px;
-    margin-bottom: 1px;
+    margin-left: 1%;
+}
+.it{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 49%;
+    height: 400px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.itb,.ia img{
+    margin: 0;
 }
 
-div.ia:hover,
-div.ib:hover,
-div.ic:hover {
+
+.ib{
+    border-radius: 15px;
+
+}
+.ib img{
+    margin-top: 50px;
+    width: 50%;
+    border-radius: 15px;
+    background-color: transparent;
+    float: left; 
+    height: 400px;
+}
+.itb{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    width: 49%;
+    height: 400px;
+    border-radius: 15px;
+    text-align: center;
+    float: right;
+}
+.itb,.ib img{
+    margin: 0;
+}
+.ic img{
+    width: 49%;
+    float: right;
+    background-color: transparent;
+    border-radius: 15px;
+    height: 400px;
+}
+.itc {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 420px;
+    width: 50%;
+    height: 400px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ia:hover img,
+.ib:hover img,
+.ic:hover img{
     filter: brightness(50%);
 }
-
-div.ib img {
-    margin-right: 50px;
+.project{
+    margin-bottom: 0;
 }
 
-div.ia img {
-    margin-right: 40px;
-}
 
 .footer {
-    margin-top: 570px;
+    margin-top: 80px;
     text-align: center;
     padding: 20px 0;
-    /* Padding above and below */
     width: 100%;
-    /* Full width */
     border-radius: 10px;
     background-color: #333;
-    /* Dark background */
     color: white;
-    /* Text color */
 }
 
 .footer .container {
     max-width: 1000px;
-    /* Max width for content */
     margin: 0 auto;
-    /* Center align container */
     padding: 0 20px;
-    /* Padding on sides */
 }
 
 .footer-links {
     list-style-type: none;
-    /* Remove bullets */
     padding: 0;
-    /* Remove padding */
 }
 
 .footer-links li {
     display: inline;
-    /* Display links inline */
     margin: 0 15px;
-    /* Space between links */
 }
 
 .footer-links a {
     color: white;
-    /* Link color */
     text-decoration: none;
-    /* Remove underline */
 }
 
 .footer-links a:hover {
     text-decoration: underline;
-    /* Underline on hover */
 }
 
 div.resume {
